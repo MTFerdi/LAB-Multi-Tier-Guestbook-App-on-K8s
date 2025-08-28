@@ -22,3 +22,4 @@ LAB-Multi-Tier-Guestbook-App-on-K8s/
 
 These manifests are adapted from the official Kubernetes Guestbook example.
 
+
