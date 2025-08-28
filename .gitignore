@@ -1,0 +1,30 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+
+# Python cache (if you add scripts)
+__pycache__/
+*.pyc
+
+# Node.js (if you add tooling later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build / dist artifacts
+dist/
+build/
+coverage/
+
+# Env / secrets
+.env
+*.key
+*.pem
+secrets/
