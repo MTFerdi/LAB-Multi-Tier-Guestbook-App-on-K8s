@@ -25,3 +25,4 @@ These manifests are adapted from the official Kubernetes Guestbook example.
 
 
 
+
