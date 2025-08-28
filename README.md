@@ -20,6 +20,9 @@ LAB-Multi-Tier-Guestbook-App-on-K8s/
 └─ README.md
 ```
 
+![Validate K8s Manifests](https://github.com/MTFerdi/LAB-Multi-Tier-Guestbook-App-on-K8s/actions/workflows/validate-k8s.yml/badge.svg)
+
+
 These manifests are adapted from the official Kubernetes Guestbook example.
 
 
