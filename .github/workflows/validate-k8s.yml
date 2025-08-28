@@ -21,7 +21,7 @@ jobs:
 
       - name: Validate manifests
         run: |
-          kubeconform -summary -strict -kubernetes-version 1.28.0 \
+          kubeconform -summary -strict \
             -schema-location default \
             -schema-location 'https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/{{.NormalizedKubernetesVersion}}-standalone/{{.ResourceKind}}.json' \
             $(find k8s -type f -name '*.yaml' -o -name '*.yml')
